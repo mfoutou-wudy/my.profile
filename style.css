@@ -1,0 +1,53 @@
+h2	{
+	color: #c54c4c;
+	font-size: 34px;
+}
+body {
+    background-color: #c54c4c;
+    padding: 60px;
+    border: 60px;
+    text-align: center;
+     }
+.card	{
+	text-align: center;
+	background-color: white;	
+	padding: 30px;
+	margin: 40px;
+	-moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+    
+
+.tout	{
+	width: 600px;
+	margin: 0 auto;
+}
+img	{
+	width: 180px;
+
+}
+
+@media	(max-width: (500px)) {
+	.tout	{
+		width: 400px;
+	}
+}
+
+@media	(max-width: (400px)) {
+	.tout	{
+		width: 300px;
+	}
+}
+
+@media	(max-width: (300px)) {
+	.tout	{
+		width: 200px;
+	}
+}
+
